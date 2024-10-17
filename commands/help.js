@@ -78,7 +78,7 @@ async function helpCommand(sock, chatId, channelLink) {
 `;
 
     try {
-        const imagePath = './assets/bot_image.jpg';
+        const imagePath = './assets/bot_image02.jpg';
         if (fs.existsSync(imagePath)) {
             const imageBuffer = fs.readFileSync(imagePath);
             await sock.sendMessage(chatId, { 
